@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 64px;
+}
+
+p {
+    font-family: "Helvetica";
+    font-size: 24px;
+}
+
+header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+#selected-page {
+    background-color: #64fe64;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#introduction {
+    background-image: url(img/PowerBank_Render2.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#introduction div {
+    margin: 0px 200px;
+}
+
+#introduction h1, #introduction p {
+    color: #ffffff;
+}
+
+#iuc-logo {
+    height: 100px;
+    margin-left: 50px;
+}
+
+.standard-text {
+    padding: 300px 200px;
+}
+
+#the-solution, #conclusion {
+    background-color: #64fe64;
+}
+
+#design {
+    background-color: #4870ea;
+}
+
+#design h1, #design p {
+    color: #ffffff;
+}
+
+.horizontal-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.horizontal-images img {
+    height: 800px;
+    border-radius: 20px;
+}
+
+#video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#rotation-animation {
+    width: 80%;
+    border-radius: 20px;
+}
+
+footer {
+    padding: 100px 200px;
+    background-color: #4870ea;
+    color: #ffffff;
+}
